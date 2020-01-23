@@ -1,14 +1,15 @@
+  
 import React from "react";
 import "./App.css";
-
+import NasaList from "./NasaList";
 
 function App() {
   return (
     <div className="App">
       <p>
-        NASA PHOTO OF THE DAY 🚀!
+        
       </p>
-      
+      <NasaList />
     </div>
   );
 }
